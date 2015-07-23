@@ -16,5 +16,7 @@ form.submit(function(e) {
   bVal = aDec.toString(selectB.val()).toUpperCase();
 
   inputB.val(bVal);
+  inputB.focus();
+  inputB.select();
 
 });

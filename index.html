@@ -7,9 +7,16 @@
 </head>
 <body>
 
+  <!--Header-->
+  <header>
+    <h1>NumCon</h1>
+    <h3>A numeral system conversion tool</h3>
+  </header>
+
   <!--Inputs-->
   <form action="post" id="form">
       <input type="text" id="formNumA" placeholder="Enter Number A">
+      <input type="text" id="formNumB" placeholder="Output" disabled>
       <select name="from" id="formSelectA">
         <option value="2">2 – Binary</option>
         <option value="3">3 – Ternary</option>
@@ -31,7 +38,6 @@
         <option value="19">19</option>
         <option value="20">20 – Heptavigesimal</option>
       </select>
-      <input type="text" id="formNumB" placeholder="Enter Number B">
       <select name="from" id="formSelectB">
         <option value="2">2 – Binary</option>
         <option value="3">3 – Ternary</option>
