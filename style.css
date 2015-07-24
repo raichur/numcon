@@ -62,6 +62,9 @@ input[type="submit"] {
   font-size: 2em;
   cursor: pointer;
   transition: all ease .3s;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 input[type="submit"]:hover {
